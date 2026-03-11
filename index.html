@@ -31,13 +31,14 @@ border-radius:12px;
 box-shadow:0 6px 15px rgba(0,0,0,0.2);
 }
 
-ul{
-list-style:none;
-padding:0;
+.libros{
+display:flex;
+justify-content:space-around;
+flex-wrap:wrap;
 }
 
-li{
-padding:6px;
+.libro{
+text-align:center;
 }
 
 img{
@@ -76,27 +77,25 @@ border-radius:10px;
 
 <h2>Libros Leídos</h2>
 
-<div>
+<div class="libros">
 
+<div class="libro">
 <h3>Padre Rico Padre Pobre</h3>
-<p>Autor: Robert Kiyosaki</p>
+<p>Robert Kiyosaki</p>
 <img src="https://images-na.ssl-images-amazon.com/images/I/81bsw6fnUiL.jpg" width="150">
-
 </div>
 
-<div>
-
+<div class="libro">
 <h3>Hábitos Atómicos</h3>
-<p>Autor: James Clear</p>
+<p>James Clear</p>
 <img src="https://images-na.ssl-images-amazon.com/images/I/91bYsX41DVL.jpg" width="150">
-
 </div>
 
-<div>
-
+<div class="libro">
 <h3>El Poder del Ahora</h3>
-<p>Autor: Eckhart Tolle</p>
+<p>Eckhart Tolle</p>
 <img src="https://images-na.ssl-images-amazon.com/images/I/71KilybDOoL.jpg" width="150">
+</div>
 
 </div>
 
